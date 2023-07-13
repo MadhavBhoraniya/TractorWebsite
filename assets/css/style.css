@@ -1,0 +1,515 @@
+/*========== general class ==========*/
+:root {
+    --success: #355E3B;
+    --success-light: #198754;
+    --light-border: rgba(255, 255, 255, 0.5);
+    --dark-border: rgba(0, 0, 0, 0.5);
+}
+
+.active {
+    font-weight: 600;
+}
+
+.btn-success {
+    background-color: var(--success);
+    border: none;
+}
+
+.btn-success:hover,
+.btn-success:focus {
+    background-color: var(--success-light);
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    min-width: 320px;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    display: block;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6,
+p {
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*========== general class ==========*/
+
+
+/*========== Home Banner Section ==========*/
+.home-banner {
+    background-image: url(../images/home-banner-1.png);
+    color: #fff;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: #fff;
+}
+
+.main-header .contact-detail {
+    display: flex;
+    border-bottom: 1px solid var(--light-border);
+}
+
+.contact-detail .location,
+.contact-detail .availability,
+.contact-detail .numbers {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact-detail .location .detail {
+    border-right: 1px solid var(--light-border);
+    padding-right: 30px;
+}
+
+.contact-detail .availability {
+    margin-right: auto;
+}
+
+.contact-detail .detail {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #000;
+    margin: 20px 0px;
+    position: relative;
+}
+
+.main-header .navbar ul li {
+    margin: auto 15px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.main-header .navbar .contact-button button {
+    padding: 7px 40px;
+}
+
+.main-header .navbar .collapse.show {
+    position: absolute;
+    top: 80px;
+    background: #c1c1c1;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+.custom-dropdown>a {
+    display: flex;
+    color: #000;
+    align-items: center;
+}
+
+.custom-dropdown>a .icon {
+    margin-left: 0.25em;
+}
+
+.custom-dropdown:hover .custom-dropdown-nav {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.custom-dropdown-nav {
+    opacity: 0;
+    transition: transform 0.3s cubic-bezier(0.88, -0.72, 0, 1), opacity 0.3s ease-in-out;
+    transform: translateY(-4rem);
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+    background: #fff;
+    border-radius: 15px;
+}
+
+.custom-dropdown-nav a {
+    color: #000;
+}
+
+.home-banner .home-page .detail {
+    margin: 70% 0% 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-banner .home-page .title {
+    position: relative;
+}
+
+.home-banner .home-page .title p {
+    font-size: 4em;
+    font-weight: 500;
+}
+
+.home-banner .home-page .title span {
+    color: #ffff00;
+}
+
+.home-banner .home-page .title span::after {
+    content: "";
+    background-image: url(../images/banner-decoration.png);
+    top: 30px;
+    left: 90px;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 45%;
+    background-repeat: no-repeat;
+}
+
+.home-banner .home-page .tractor-img {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+    margin-top: 130px;
+}
+
+/*========== Home Banner Section ==========*/
+
+
+/*========== Working With Section ==========*/
+.working-with {
+    margin: 50px 0px;
+}
+
+.working-with .header span {
+    font-size: 2.6em;
+    font-weight: 700;
+}
+
+.working-with .header p {
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+.working-with .images {
+    margin: 40px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.working-with .images swiper-slide {
+    width: auto;
+}
+
+/*========== Working With Section ==========*/
+
+
+/*========== Category Section ==========*/
+.category-section {
+    margin: 50px 0px;
+}
+
+.category-section .header span {
+    font-size: 2.6em;
+    font-weight: 700;
+}
+
+.category-section .header p {
+    margin: 10px auto;
+    width: 44%;
+    font-size: 18px;
+}
+
+.category-section .category-card {
+    background-color: #355E3B29;
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    height: 100%;
+    width: 95%;
+}
+
+.category-section .category-card .detail {
+    width: 50%;
+}
+
+.category-section .category-card .detail h6 {
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+}
+
+.category-section .category-card .detail p {
+    margin: 10px 0px;
+}
+
+.category-section .category-card .detail span {
+    font-weight: 600;
+}
+
+/*========== Category Section ==========*/
+
+
+/*========== Visit Us Section ==========*/
+.visit-us .detail-section {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    background-color: #F0C419;
+}
+
+.visit-us .detail-section .detail {
+    width: 55%;
+    margin: 10%;
+}
+
+.visit-us .detail-section span {
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+.visit-us .detail-section p {
+    margin: 10px 0px;
+}
+
+.visit-us .map-section {
+    width: 50%;
+    padding: 0;
+}
+
+.visit-us .map-section .mapouter {
+    height: 100%;
+}
+
+/*========== Visit Us Section ==========*/
+
+
+/*========== Gallary Section ==========*/
+.gallary {
+    margin: 50px 0px;
+}
+
+.gallary .header span {
+    font-size: 2.6em;
+    font-weight: 700;
+}
+
+.gallary .slider {
+    margin: 20px 0px;
+}
+
+/*========== Gallary Section ==========*/
+
+
+
+/*========== Footer Section ==========*/
+.footer-top .contact-section {
+    background-image: url(../images/footer.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer-top .contact-form-card {
+    width: 40%;
+    background-color: #fff;
+    margin: 15% 0px 15% auto;
+    padding: 45px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.footer-top .contact-form-card span {
+    font-size: 2.1em;
+    font-weight: 700;
+}
+
+.footer-top .contact-form-card p {
+    margin: 20px 0px;
+}
+
+.footer-top .contact-form-card input,
+.footer-top .contact-form-card textarea,
+.footer-top .contact-form-card input:focus,
+.footer-top .contact-form-card textarea:focus,
+.footer-top .contact-form-card input:active,
+.footer-top .contact-form-card textarea:active {
+    border: none;
+    background-color: #964B0014;
+    appearance: none;
+}
+
+.footer-top .contact-form-card button {
+    width: 75%;
+}
+
+.footer {
+    background-color: #121212;
+    color: #fff;
+    padding: 5% 5% 0% 5%;
+}
+
+.footer .title {
+    font-size: 2em;
+    margin: 20px 0px;
+}
+
+.footer .detail {
+    font-size: 1em;
+    line-height: 1.8em;
+}
+
+.footer .contact-us .detail p {
+    width: 60%;
+}
+
+.footer .hours .detail td {
+    padding-right: 30px;
+}
+
+.footer .quick-link .detail li a {
+    color: #fff;
+}
+
+.footer .social-media .detail {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+}
+
+.footer .social-media .detail span {
+    display: flex;
+    align-items: center;
+}
+
+.footer .social-media .detail i {
+    color: #fff;
+    font-size: 1.4em;
+    margin-right: 10px;
+}
+
+.footer .rights {
+    background-color: #121212;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.footer .rights span {
+    padding: 1.5% 0%;
+    border-top: 1px solid var(--light-border);
+}
+
+/*========== Footer Section ==========*/
+
+
+
+
+
+/* =========================================================================================================================== */
+/* Financing page */
+/* =========================================================================================================================== */
+
+.financing-page .main-header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: #000;
+}
+.financing-page .contact-detail .location .detail {
+    border-right: 1px solid var(--dark-border);
+    padding-right: 30px;
+}
+.financing-page .breadcrumb {
+    margin-bottom: 0;
+}
+.financing-page .breadcrumb-title {
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #000;
+}
+.financing-page .breadcrumb a{
+    color: #000;
+}
+.financing-page .financing-banner .financing-logo{
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+}
+.financing-page .financing-banner .qualification-card{
+    height: 270px;
+    width: 400px;
+    margin: 30px auto auto;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.financing-page .financing-banner .qualification-card .header{
+    background-color: var(--success);
+    border-radius: 10px  10px 0px 0px;
+    padding: 10px;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+}
+.financing-page .financing-banner .qualification-card .detail ,
+.financing-page .financing-banner .qualification-card .logo {
+    text-align: center;
+}
+.financing-page .financing-banner .qualification-card .detail P{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    line-height: 1em;
+    color: var(--success);
+    font-weight: 500;
+}

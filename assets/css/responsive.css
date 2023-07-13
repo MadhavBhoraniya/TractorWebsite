@@ -1,0 +1,570 @@
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1200px;
+    }
+}
+
+/*========== Media Query 1440 ==========*/
+@media (max-width : 1440px) {
+
+    .contact-detail .location,
+    .contact-detail .availability,
+    .contact-detail .numbers {
+        padding: 10px;
+    }
+
+    .home-banner .home-page .detail {
+        margin: 62% 0% 30%;
+    }
+
+    .footer-top .contact-form-card {
+        margin: 11% 0px 11% auto;
+    }    
+
+    .footer-top .contact-us .detail p {
+        width: 80%;
+    }
+
+    .footer .title {
+        margin: 20px 0px 10px;
+    }
+
+    .footer .hours .detail td {
+        padding-right: 20px;
+    }
+}
+
+/*========== Media Query 1440 ==========*/
+
+
+/*========== Media Query 1200 ==========*/
+@media (max-width : 1199.8px) {
+    .home-banner .home-page .detail {
+        margin: 68% 0% 30%;
+    }
+
+    .home-banner .home-page .title p {
+        font-size: 3.3em;
+    }
+
+    .home-banner .home-page .title span::after {
+        top: 28px;
+        left: 78px;
+        height: 100%;
+        background-size: 32%;
+    }
+
+    .working-with {
+        margin: 50px 0px 0px;
+    }
+
+    .working-with .header span {
+        font-size: 2.4em;
+    }
+
+    .working-with .header p {
+        margin: 0px;
+    }
+
+    .category-section {
+        margin: 0px 0px 50px;
+    }
+
+    .category-section .header span {
+        font-size: 2.4em;
+    }
+
+    .category-section .header p {
+        width: 55%;
+        margin: 0px auto 15px;
+    }
+
+    .category-section .category-card .detail {
+        width: 70%;
+    }
+
+    .category-section .category-card .image img {
+        margin-top: 40%;
+    }
+
+    .visit-us .detail-section .detail {
+        width: 65%;
+        margin: 10% 0% 10% 10%;
+    }
+
+    .visit-us .detail-section span {
+        font-size: 2.6em;
+    }
+
+    .gallary {
+        margin: 30px 0px 50px;
+    }
+
+    .gallary .header span {
+        font-size: 2.4em;
+    }
+
+    .footer-top .contact-form-card {
+        margin: 6% 0px 6% auto;
+    }
+
+    .footer .title {
+        font-size: 1.8em;
+    }
+
+    .footer .contact-us .detail p {
+        width: 100%;
+    }
+
+    .footer .hours .detail td {
+        padding-right: 10px;
+    }
+
+    .footer .detail {
+        font-size: 1em;
+        line-height: 1.7em;
+    }
+
+    .footer .social-media .detail {
+        font-size: 1.2em;
+    }
+}
+
+/*========== Media Query 1200 ==========*/
+
+
+/*========== Media Query 1024 ==========*/
+@media (max-width : 1024px) {
+    .main-header .navbar .logo-section {
+        width: 60%;
+    }
+
+    .home-banner .home-page .detail {
+        margin: 53% 0% 25%;
+    }
+
+    .working-with {
+        margin: 20px 0px 0px;
+    }
+
+    .category-section {
+        margin: 0px 0px 40px;
+    }
+
+    .visit-us .detail-section .detail {
+        width: 75%;
+    }
+
+    .gallary {
+        margin: 20px 0px 50px;
+    }
+
+    .footer-top .contact-form-card {
+        margin: 5% 0px 4% auto;
+        padding: 25px 45px;
+    }
+}
+
+/*========== Media Query 1024 ==========*/
+
+
+/*========== Media Query 991 ==========*/
+@media (max-width : 991px) {
+    .home-banner .home-page .title p {
+        font-size: 2.5em;
+    }
+
+    .home-banner .home-page .title span::after {
+        top: 24px;
+        left: 62px;
+        background-size: 30%;
+    }
+
+    .home-banner .home-page .detail {
+        margin: 70% 0% 42%;
+    }
+
+    .home-banner .home-page .tractor-img {
+        margin-top: 60px;
+    }
+
+    .working-with {
+        margin: 20px 0px 0px;
+    }
+
+    .category-section .header p {
+        width: 75%;
+    }
+
+    .category-section .category-card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .category-section .category-card .detail {
+        width: 100%;
+    }
+
+    .category-section .category-card .image img {
+        margin-top: 0%;
+    }
+
+    .footer-top .contact-form-card {
+        width: 50%;
+    }
+
+    .footer-top .contact-form-card p {
+        margin: 10px 0px;
+    }
+
+    .footer {
+        padding: 2%;
+    }
+
+    .footer .title {
+        font-size: 1.6em;
+        margin: 0px 0px 5px;
+    }
+
+    .footer .detail {
+        font-size: 0.8em;
+        line-height: 1.7em;
+    }
+}
+
+/*========== Media Query 991 ==========*/
+
+
+/*========== Media Query 767 ==========*/
+@media (max-width : 767px) {
+    .home-banner .home-page .detail {
+        margin: 57% 3% 14%;
+    }
+
+    .working-with .images {
+        margin: 30px 0px 10px;
+    }
+
+    .category-section {
+        margin: 0px 0px 25px;
+    }
+
+    .category-section .category-card {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .category-section .category-card .detail {
+        width: 60%;
+    }
+
+    .visit-us .detail-section {
+        width: 94%;
+        margin: auto;
+    }
+
+    .visit-us .detail-section .detail {
+        width: 90%;
+        margin: 10%;
+    }
+
+    .visit-us .map-section {
+        width: 94%;
+        margin: auto;
+    }
+
+    .footer-top .contact-form-card {
+        width: 45%;
+        margin: 1% 15px 1% auto;
+        padding: 10px 25px;
+    }
+
+    .footer .rights span {
+        padding: 1.5%;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+    }
+}
+
+/*========== Media Query 767 ==========*/
+
+
+/*========== Media Query 575 ==========*/
+@media (max-width : 575px) {
+    .home-banner {
+        background-size: unset;
+    }
+
+    .main-header .contact-detail {
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: 1px solid var(--light-border);
+    }
+
+    .home-banner .home-page .detail {
+        margin: 51% 0% 0%;
+        text-align: center;
+    }
+
+    .home-banner .home-page .tractor-img {
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-banner .home-page .title span::after {
+        top: 25px;
+        left: 120px;
+        background-size: 18%;
+    }
+
+    .home-banner .home-page .explore-button {
+        margin-top: 10px;
+    }
+
+    .working-with .images {
+        margin: 30px 0px 10px;
+    }
+
+    .working-with .header p {
+        font-size: 15px;
+    }
+
+    .category-section .header span {
+        font-size: 2.2em;
+    }
+
+    .working-with .header span, .category-section .header span {
+        font-size: 2.2em;
+        line-height: 1em;
+    }
+
+    .category-section .header p {
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .visit-us .detail-section .detail {
+        margin: auto;
+    }
+
+    .gallary {
+        margin: 5px 0px 50px;
+    }
+
+    .footer-top .contact-section {
+        background-size: auto 100%;
+    }
+
+    .footer-top .contact-form-card {
+        width: 55%;
+    }
+
+    .footer-top .contact-form-card span {
+        font-size: 1.6em;
+        font-weight: 700;
+    }
+
+    .footer-top .contact-form-card p {
+        margin: 0px 0px 5px;
+        font-size: 0.9em;
+    }
+
+    .form-control {
+        padding: 0.175rem 0.65rem;
+        font-size: 0.9rem;
+    }
+
+    .footer .title,
+    .footer .detail {
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer table {
+        margin: auto;
+        text-align: left;
+    }
+
+    .footer .rights {
+        margin-top: 50px;
+    }
+}
+
+/*========== Media Query 575 ==========*/
+
+
+/*========== Media Query 425 ==========*/
+@media (max-width : 425px) {
+
+    .home-banner .home-page .detail {
+        margin: 70% 0% 0%;
+    }
+
+    .home-banner .home-page .title span::after {
+        top: 30px;
+        left: 110px;
+        background-size: 21%;
+    }
+
+    .working-with .images img {
+        width: 70%;
+    }
+
+    .working-with .images swiper-slide {
+        width: 50%;
+    }
+
+    .working-with .header span,
+    .category-section .header span {
+        font-size: 1.8em;
+    }
+
+    .working-with .header p,
+    .category-section .header p {
+        font-size: 13px;
+        width: 100%;
+    }
+
+    .category-section .category-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .category-section .category-card .detail {
+        width: 100%;
+    }
+
+    .category-section .category-card .image {
+        margin: auto;
+    }
+
+    .visit-us .detail-section span {
+        font-size: 2em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .visit-us .detail-section p {
+        text-align: center;
+    }
+
+    .footer-top .contact-form-card {
+        width: 92%;
+        opacity: 0.9;
+    }
+}
+
+/*========== Media Query 425 ==========*/
+
+
+/*========== Media Query 375 ==========*/
+@media (max-width : 375px) {
+    .home-banner .home-page .detail {
+        margin: 90% 0% 0%;
+    }
+
+    .home-banner .home-page .title span::after {
+        top: 30px;
+        left: 80px;
+        background-size: 24%;
+    }
+
+    .contact-detail .location,
+    .contact-detail .availability,
+    .contact-detail .numbers {
+        padding: 5px 10px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+        width: 100%;
+    }
+
+    .contact-detail .location .detail {
+        border-right: none;
+    }
+
+    .footer-top .contact-form-card {
+        padding: 10px 15px;
+    }
+}
+
+/*========== Media Query 375 ==========*/
+
+
+/*========== Media Query 320 ==========*/
+@media (max-width : 320px) {
+    .main-header .navbar {
+        margin: 0;
+    }
+    .home-banner .home-page .detail {
+        margin: 100% 0% 0%;
+    }
+    .category-section {
+        margin: 20px 0px 25px;
+    }
+}
+
+/*========== Media Query 320 ==========*/
+
+
+
+
+/* =========================================================================================================================== */
+/* Financing page */
+/* =========================================================================================================================== */
+
+@media (max-width : 991px){
+    .financing-page .financing-banner .financing-logo {
+        margin-top: 40%;
+    }
+}
+@media (max-width : 767px){
+    .financing-page .financing-banner .financing-logo {
+        margin-top: 50%;
+    }
+}
+@media (max-width : 575px){
+    .financing-page .financing-banner .financing-logo {
+        margin-top: 60%;
+    }
+}
+@media (max-width : 425px){
+    .financing-page .financing-banner .financing-logo {
+        margin-top: 80%;
+    }
+}
+@media (max-width : 375px){
+    .financing-page .financing-banner .financing-logo {
+        margin-top: 100%;
+    }
+    .financing-page .financing-banner .qualification-card {
+        width: 350px;
+        height: 290px;
+    }
+    .financing-page .contact-detail .location,
+    .financing-page .contact-detail .availability,
+    .financing-page .contact-detail .numbers {
+        padding: 5px 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+        width: 100%;
+    }
+    .financing-page .contact-detail .location .detail {
+        border-right: none;
+    }
+    
+}
+@media (max-width : 320px){
+    .financing-page .financing-banner .financing-logo {
+        margin-top: 120%;
+    }
+    .financing-page .financing-banner .qualification-card {
+        width: 290px;
+        height: 290px;
+    }
+}
